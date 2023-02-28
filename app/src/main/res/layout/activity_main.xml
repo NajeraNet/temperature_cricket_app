@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
     tools:context=".MainActivity">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:scaleType="fitCenter"
             android:layout_gravity="center_horizontal"
             android:layout_margin="15dp"
+            tools:ignore="ImageContrastCheck"
             tools:srcCompat="@drawable/temperature"
-        />
+            />
 
         <TextView
             android:id="@+id/CricketAppDescriprion"
@@ -24,7 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:gravity="center"
-            android:text="@string/DescriptionProgram"/>
+            android:text="@string/DescriptionProgram"
+            android:textColor="#3E2723" />
 
         <EditText
             android:id="@+id/etChirps"
@@ -36,8 +38,8 @@
             android:inputType="number"
             android:labelFor="@+id/number_label"
             android:minHeight="48dp"
-            android:visibility="visible"
-            android:autofillHints="" />
+            android:textColorHint="#3E2723"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/btnSubmit"
@@ -49,7 +51,7 @@
             android:layout_marginRight="15dp"
             android:hint="@string/calcular_temp"
             android:text="@string/calcular_temp"
-            />
+            android:textColor="#FCE4EC" />
 
         <TextView
             android:id="@+id/tvResults"
@@ -58,10 +60,10 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
-            android:textAlignment="center"
             android:hint="@string/tv_id_registre"
             android:text="@string/tv_id_registre"
-            />
+            android:textAlignment="center"
+            android:textColor="#3E2723" />
 
 
 </LinearLayout>
