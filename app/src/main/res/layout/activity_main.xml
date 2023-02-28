@@ -2,15 +2,65 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/CricketAppDescriprion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:layout_weight="1"
-        android:text="Sabías que puedes determinar la temperatura ahí fuera..." />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            tools:srcCompat="@drawable/temperature"
+        />
+
+        <TextView
+            android:id="@+id/CricketAppDescriprion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="@string/DescriptionProgram"/>
+
+        <EditText
+            android:id="@+id/etID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/hint_enter"
+            android:inputType="number"
+            android:labelFor="@+id/number_label"
+            android:minHeight="48dp"
+            android:visibility="visible"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:hint="@string/calcular_temp"
+            android:text="@string/calcular_temp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="center"
+            android:hint="@string/tv_id_registre"
+            android:text="@string/tv_id_registre"
+            />
+
+
 </LinearLayout>

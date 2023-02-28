@@ -2,4 +2,9 @@
     <string name="app_name">Temperature Cricket</string>
 
     <string name="CricketAppDescriprion">Temperature Cricket</string>>
+    <string name="DescriptionProgram">Sabías que... Puedes determinar la temperatura fuera usando el grillo como termómetro siguiendo la ley de Dolbear1, que establece una relación entre la temperatura del aire y la frecuencia de los chirridos de los grillos. Según esta ley, puedes calcular la temperatura en grados Fahrenheit restando 40 al número de chirridos por minuto y dividiendo el resultado entre 4</string>
+    <string name="tv_id_registre">Por ejemplo: 30 chirps + 40 = 70° F</string>
+    <string name="calcular_temp">Calcular</string>
+    <string name="hint_enter">número de chirridos en 25 segundos</string>
+
 </resources>
