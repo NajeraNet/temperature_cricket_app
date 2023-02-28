@@ -11,7 +11,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:layout_gravity="center_horizontal"
             android:layout_margin="15dp"
@@ -27,7 +27,7 @@
             android:text="@string/DescriptionProgram"/>
 
         <EditText
-            android:id="@+id/etID"
+            android:id="@+id/etChirps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -52,6 +52,7 @@
             />
 
         <TextView
+            android:id="@+id/tvResults"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"

@@ -7,4 +7,5 @@
     <string name="calcular_temp">Calcular</string>
     <string name="hint_enter">número de chirridos en 25 segundos</string>
 
+    <string name="tvDescFin">El numero calculado de chirridos es: </string>
 </resources>
